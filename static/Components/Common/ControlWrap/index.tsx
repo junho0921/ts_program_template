@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import less from './main.less';
 import SplitLine from '../SplitLine/index';
+let less = require('./main.less');
 
 interface Props {
     children: any;
