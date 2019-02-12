@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "jsx": "react",
+        "module": "esnext",
+        "target": "es2015",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node"
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": false,
+        "useCache": true,
+        "forceIsolatedModules": true
+    }
+}

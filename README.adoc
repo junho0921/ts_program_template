@@ -1,0 +1,26 @@
+= FE基础项目架构
+
+== 功能
+
+. 语言选择: ts编译支持的es6语法
+. 代码检测工具: eslint(保证开发时有错误可以阻塞编码，及时发现问题及时处理)
+. 静态检查器: typescript
+. css预处理器: Less
+. 模块打包工具: webpack
+    .. css抽离
+    .. css命名空间保护
+    .. log 的处理，开发环境可以 console.log、alert 等，正式环境清除
+. 开发环境支持：hot reload
+. 任务管理器: npm scripts
+. 模块化：commonjs
+. 框架
+    .. react
+
+== 使用说明
+
+. 安装依赖 `npm install`
+. 开发
+    .. 执行 `npm run start`
+    .. 浏览器打开 `http://localhost:7777/`
+. 编译
+    .. 执行 `npm run build`
